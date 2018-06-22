@@ -1,0 +1,14 @@
+== Spina Demo
+
+This is a demo theme hosed at http://spinacms-demo.herokuapp.com/
+
+```bash
+  bundle install
+
+  rails db:create
+  rails db:migrate
+
+  rails generate spina:install
+
+  rails server
+```

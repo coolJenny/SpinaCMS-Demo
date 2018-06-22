@@ -78,8 +78,6 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-# production:
-#   <<: *default
-#   database: spinapostgres_production
-#   username: spinapostgres
-#   password: <%= ENV['SPINAPOSTGRES_DATABASE_PASSWORD'] %>
+production:
+  <<: *default
+  database: spinapostgres_production
